@@ -3,13 +3,7 @@
 > **Status: research prototype, Milestone 1.** This repository implements the core evidence model,
 > offline fixture ingestion, a controlled regression-test runner, git-based patch analysis, and
 > evidence reports, with a synthetic demonstration. The REST API, Streamlit dashboard, real-world
-> evaluation dataset, baseline comparison, Docker files, and online advisory import are **not yet
-> implemented**. See [Roadmap](#roadmap) and [Known limitations](#known-limitations).
 
-VulnTrace asks whether a published vulnerability fix can be checked with evidence that is linked
-together: the advisory, the repository revision, the patch, and the outcome of a regression test on
-the vulnerable and patched revisions. It reports what was observed and what remains unknown. It
-never declares software secure.
 
 ## Research question
 
@@ -156,14 +150,7 @@ hashes are listed in `data/manifests/synthetic_manifest.json`. See
 - Repeated runs in one environment are expected to agree, so they do not measure flakiness.
 - Full list: [docs/limitations.md](docs/limitations.md).
 
-## Research references
 
-Publication details come from Jessy Ayala's CV, which lists work with Professor Joshua Garcia at
-UC Irvine. The abstracts and full texts have not yet been read, and DOIs have not been verified.
-Listed in [docs/references.md](docs/references.md).
-
-This project is an independent student prototype. It is not affiliated with, endorsed by, or
-reproducing the work of UC Irvine or any listed author.
 
 ## Roadmap
 
@@ -174,10 +161,7 @@ reproducing the work of UC Irvine or any listed author.
 5. Implement baselines and ablations, and evaluate them on the same cases.
 6. Add Docker files, CITATION.cff, and a CI check that runs the demo.
 
-## Citation
 
-No citation is available yet. Until a release is tagged and a paper is written, cite the repository
-URL and commit hash.
 
 ## License
 
