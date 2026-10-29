@@ -1,0 +1,19 @@
+{
+  "advisory_id": "SYN-DEMO-0001",
+  "cve_id": null,
+  "summary": "SYNTHETIC RECORD FOR DEMONSTRATION ONLY. The path-join helper accepts parent-directory traversal and absolute paths. This is not a real advisory.",
+  "source": "synthetic-demo",
+  "source_url": null,
+  "published": "2026-10-01T00:00:00Z",
+  "modified": null,
+  "ecosystem": "synthetic",
+  "package": "synthetic-pathutil",
+  "affected_versions": ["0.1.0"],
+  "fixed_version": "0.1.1",
+  "reference_urls": [],
+  "repository_url": "local://synthetic-pathutil",
+  "fix_reference": {
+    "type": "tag",
+    "value": "vt-synthetic-fixed"
+  }
+}

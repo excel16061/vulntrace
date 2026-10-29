@@ -1,0 +1,18 @@
+{
+  "dataset": "synthetic-demo",
+  "kind": "synthetic; not real vulnerability records",
+  "provenance": "Authored for this project. No external source data.",
+  "license": "MIT (project license)",
+  "files": {
+    "data/fixtures/synthetic_advisory.json": "d10df9f5fd6ce147bce26f02d453f77a106705e9dd38f6f7304710a0c484462a",
+    "examples/synthetic_vulnerable/safe_join.py": "a67c25750cb221246f57c3af81ed886152925e9e96f41adc580eb3c83be572de",
+    "examples/synthetic_patched/safe_join.py": "3c823a4d95fee312f48267accf57fe83d45e9ebe3fc531b47c45b484cb4df829",
+    "examples/synthetic_tests/test_path_guard.py": "8a6f68ff886095f3cb6705ff56dba2240e3fe682bb022d19896f73780e48d212"
+  },
+  "environment_at_generation": {
+    "python": "3.13.18",
+    "pydantic": "2.13.5",
+    "pytest": "9.1.1",
+    "ruff": "0.16.9"
+  }
+}
